@@ -67,7 +67,7 @@ export default function Home() {
                         
                             <Link href='https://www.instagram.com/onlineceoofficial' target='_blank'
                               aria-label='Instagram'>
-                              <h1 className='text-white px-2 w-28 '>Programming </h1>
+                              <h1 className='text-white px-6 w-28 '>Programming </h1>
                             </Link>
                           <div className='border-l-2 pr-10'>
                             <h2 className='text-white text-left px-2 w-40 sm:w-32 '>"Java Script"</h2>
@@ -87,7 +87,7 @@ export default function Home() {
                        
                             <Link href='https://www.instagram.com/onlineceoofficial' target='_blank'
                               aria-label='Instagram'>
-                              <h1 className='text-white  px-2 w-28 '>FrameWork</h1>
+                              <h1 className='text-white  px-6 w-28 '>FrameWork</h1>
                             </Link>
                           <div className='border-l-2 pr-10'>
                             <h2 className='text-white text-left px-2 w-40 sm:w-32'>"React"</h2>
@@ -109,7 +109,7 @@ export default function Home() {
                               <FaRegDotCircle className=' w-10 text-sm  text-[#fff] '/> 
                             </Link>   */}
                             <Link href='https://www.instagram.com/onlineceoofficial' target='_blank'>
-                              <h1 className='text-white px-2 w-28'>Automation</h1>
+                              <h1 className='text-white px-6 w-28'>Automation</h1>
                             </Link>
                         <div className='border-l-2 pr-10 '>
                           <h2 className='text-white text-left px-2 w-40 sm:w-32'>"Raspberry Pi"</h2>
@@ -130,7 +130,7 @@ export default function Home() {
                               <FaRegDotCircle className=' w-10 text-sm  text-[#fff] '/> 
                             </Link>   */}
                             <Link href='https://www.instagram.com/onlineceoofficial' target='_blank'>
-                              <h1 className='text-white px-2 w-28'>Other Skill</h1>
+                              <h1 className='text-white px-6 w-28 whitespace-nowrap'>Other Skill</h1>
                             </Link>
                       <div className='border-l-2 pr-10'>
                         <h2 className='text-white text-left px-2 w-40 sm:w-32'>"Project Management"</h2>
@@ -148,7 +148,7 @@ export default function Home() {
 
                   <div className='flex flex-row py-2  justify-between items-center'>
                             <Link href='https://www.instagram.com/onlineceoofficial' target='_blank'>
-                              <h1 className='text-white px-2 w-28'>Native</h1>
+                              <h1 className='text-white px-6 w-28'>Native</h1>
                             </Link>
                       <div className='border-l-2 pr-10'>
                         <h2 className='text-white text-left px-2 w-40 sm:w-32'>"Turkish"</h2>
@@ -159,7 +159,7 @@ export default function Home() {
 
                       <div className='flex flex-row py-2  justify-between items-center'>
                             <Link href='https://www.instagram.com/onlineceoofficial' target='_blank'>
-                              <h1 className='text-white px-2 w-28'>Other  </h1>
+                              <h1 className='text-white px-6 w-28'>Other  </h1>
                             </Link>
                       <div className='border-l-2 pr-10'>
                         <h2 className='text-white text-left px-2 w-40 sm:w-32'>"English"</h2>
@@ -179,7 +179,7 @@ export default function Home() {
                   <div className='flex flex-col   '>
 
                     {/* Phone */}
-                      <div className='flex flex-row py-2'>
+                      <div className='flex flex-row py-2 px-6'>
                         <Link href='tel:+989141472686'>
                           <FiPhone className=' w-10 text-2xl text-[#fff] '/> 
                         </Link>  
@@ -189,7 +189,7 @@ export default function Home() {
                       </div>
 
                       {/* office */}
-                      <div className='flex flex-row  py-2'>
+                      <div className='flex flex-row  px-6 py-2'>
                         <Link href='tel:+984433384232' >
                           <HiOutlineLibrary className=' w-10 text-2xl text-[#fff] '/> 
                         </Link>  
@@ -199,7 +199,7 @@ export default function Home() {
                       </div>
 
                       {/* instagram */}
-                      <div className='flex flex-row  py-2'>
+                      <div className='flex flex-row px-6 py-2'>
                         <Link href='https://www.instagram.com/ashkanazimi.info' target='_blank'  aria-label='Instagram'>
                           <FaInstagram className=' w-10 text-2xl text-[#fff] '/> 
                         </Link>  
@@ -209,7 +209,7 @@ export default function Home() {
                       </div>
 
                       {/* telegram */}
-                      <div className='flex flex-row  py-2'>
+                      <div className='flex flex-row px-6 py-2'>
                         <Link href='https://t.me/+ll4bLWoavUgyZTI0' target='_blank'  aria-label='telgram'>
                           <TbBrandTelegram className=' w-10 text-2xl text-[#fff] '/> 
                         </Link>  
@@ -218,7 +218,7 @@ export default function Home() {
                         </Link>
                       </div>
                             {/* mail */}
-                      <div className='flex flex-row  py-2'>
+                      <div className='flex flex-row px-6 py-2'>
                         <Link href="mailto:ashkan1991azimi@gmail.com" target='_blank'  aria-label='mail'>
                           <HiOutlineMail className=' w-10 text-2xl text-[#fff] '/> 
                         </Link>  
@@ -228,7 +228,7 @@ export default function Home() {
                       </div>
 
                                  {/* location */}
-                      <div className='flex flex-row  py-2'>
+                      <div className='flex flex-row px-6  py-2'>
                         <Link href="https://goo.gl/maps/ADLwGuyzV7iG2S689" target='_blank'  aria-label='location'>
                           <HiOutlineLocationMarker className=' w-10 text-2xl text-[#fff] '/> 
                         </Link>  
