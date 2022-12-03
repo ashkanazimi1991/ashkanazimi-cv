@@ -51,34 +51,34 @@ export default function Home() {
               
               
               {/* left col */}
-                <div className='bg-gray-800  sm:w-screen justify-start min-w-300  sm:pl-[10%] pl-[4%]' >
+                <div className='bg-gray-800  sm:w-screen justify-start min-w-300  ' >
                   
                   
 
 
                   {/* Skils */}
 
-                  <h1 className=' pr-6 pt-5 font-bold text-white text-left tracking-widest'>SKILLS</h1>
-                  <div className='border-b-4  reletive r-0 my-2'></div>
+                  <h1 className=' pl-6 pt-5 font-bold text-white text-left tracking-widest'>SKILLS</h1>
+                  <div className='border-b-4  reletive items-end my-2'></div>
 
                       {/* Programming Skill */}
-                        <div className='flex flex-col  w-[100%] pb-20   '>
+                        <div className='flex flex-col  justify-center w-[100%] pb-20   '>
                           <div className='flex flex-row py-2  justify-between items-center'>
                         
                             <Link href='https://www.instagram.com/onlineceoofficial' target='_blank'
                               aria-label='Instagram'>
-                              <h1 className='text-white pr-2 sm:pl-10 '>Programming </h1>
+                              <h1 className='text-white px-2 w-28 '>Programming </h1>
                             </Link>
-                        <div className='border-l-2 pr-10'>
-                          <h2 className='text-white text-left pl-4 w-40'>"Java Script"</h2>
-                          <h2 className='text-white text-left pl-4 w-40'>"Type Script"</h2>
-                          <h2 className='text-white text-left pl-4 w-40'>"Python"</h2>
-                          <h2 className='text-white text-left pl-4 w-40'>"C++"</h2>
-                          <h2 className='text-white text-left pl-4 w-40'>"Solidity"</h2>
-                          <h2 className='text-white text-left pl-4 w-40'>"Tailwindcss"</h2>
-                          <h2 className='text-white text-left pl-4 w-40'>"SQL / MySQL"</h2>
-                          <h2 className='text-white text-left pl-4 w-40'>"Html / CSS"</h2>
-                        </div>
+                          <div className='border-l-2 pr-10'>
+                            <h2 className='text-white text-left px-2 w-40 sm:w-32 '>"Java Script"</h2>
+                            <h2 className='text-white text-left px-2 w-40 sm:w-32'>"Type Script"</h2>
+                            <h2 className='text-white text-left px-2 w-40 sm:w-32'>"Python"</h2>
+                            <h2 className='text-white text-left px-2 w-40 sm:w-32'>"C++"</h2>
+                            <h2 className='text-white text-left px-2 w-40 sm:w-32'>"Solidity"</h2>
+                            <h2 className='text-white text-left px-2 w-40 sm:w-32'>"Tailwindcss"</h2>
+                            <h2 className='text-white text-left px-2 w-40 sm:w-32'>"SQL / MySQL"</h2>
+                            <h2 className='text-white text-left px-2 w-40 sm:w-32'>"Html / CSS"</h2>
+                          </div>
                         </div>
 
                     {/* FrameWork */}
@@ -87,14 +87,14 @@ export default function Home() {
                        
                             <Link href='https://www.instagram.com/onlineceoofficial' target='_blank'
                               aria-label='Instagram'>
-                              <h1 className='text-white  sm:pl-10 w-30'>FrameWork</h1>
+                              <h1 className='text-white  px-2 w-28 '>FrameWork</h1>
                             </Link>
                           <div className='border-l-2 pr-10'>
-                            <h2 className='text-white text-left pl-4 w-40'>"React"</h2>
-                            <h2 className='text-white text-left pl-4 w-40'>"React Native"</h2>
-                            <h2 className='text-white text-left pl-4 w-40'>"Expo"</h2>
-                            <h2 className='text-white text-left pl-4 w-40'>"Nextjs"</h2>
-                            <h2 className='text-white text-left pl-4 w-40'>"Django"</h2>
+                            <h2 className='text-white text-left px-2 w-40 sm:w-32'>"React"</h2>
+                            <h2 className='text-white text-left px-2 w-40 sm:w-32'>"React Native"</h2>
+                            <h2 className='text-white text-left px-2 w-40 sm:w-32'>"Expo"</h2>
+                            <h2 className='text-white text-left px-2 w-40 sm:w-32'>"Nextjs"</h2>
+                            <h2 className='text-white text-left px-2 w-40 sm:w-32'>"Django"</h2>
                           </div>
                         </div>
 
@@ -109,11 +109,11 @@ export default function Home() {
                               <FaRegDotCircle className=' w-10 text-sm  text-[#fff] '/> 
                             </Link>   */}
                             <Link href='https://www.instagram.com/onlineceoofficial' target='_blank'>
-                              <h1 className='text-white sm:pl-10 w-30'>Automation</h1>
+                              <h1 className='text-white px-2 w-28'>Automation</h1>
                             </Link>
                         <div className='border-l-2 pr-10 '>
-                          <h2 className='text-white text-left pl-4 w-40'>"Raspberry Pi"</h2>
-                          <h2 className='text-white text-left pl-4' w-40>"Arduino"</h2>
+                          <h2 className='text-white text-left px-2 w-40 sm:w-32'>"Raspberry Pi"</h2>
+                          <h2 className='text-white text-left px-2 w-40 sm:w-32'>"Arduino"</h2>
                           
                         </div>
                         </div>
@@ -130,39 +130,39 @@ export default function Home() {
                               <FaRegDotCircle className=' w-10 text-sm  text-[#fff] '/> 
                             </Link>   */}
                             <Link href='https://www.instagram.com/onlineceoofficial' target='_blank'>
-                              <h1 className='text-white sm:pl-10 w-30'>Other Skill</h1>
+                              <h1 className='text-white px-2 w-28'>Other Skill</h1>
                             </Link>
                       <div className='border-l-2 pr-10'>
-                        <h2 className='text-white text-left pl-4 w-40 whitespace-nowrap'>"Project Management"</h2>
-                        <h2 className='text-white text-left pl-4 w-40'>"Ui,Ux "</h2>
-                        <h2 className='text-white text-left pl-4 w-40'>"Figma"</h2>
-                        <h2 className='text-white text-left pl-4 w-40'>"Git"</h2>
+                        <h2 className='text-white text-left px-2 w-40 sm:w-32'>"Project Management"</h2>
+                        <h2 className='text-white text-left px-2 w-40 sm:w-32'>"Ui,Ux "</h2>
+                        <h2 className='text-white text-left px-2 w-40 sm:w-32'>"Figma"</h2>
+                        <h2 className='text-white text-left px-2 w-40 sm:w-32'>"Git"</h2>
                        </div>
                       </div>
 
 {/* ........................................................................................... */}
                   {/* language */}
-                  <h1 className=' pr-6 pt-5 font-bold text-white text-left tracking-widest'>LANGUAGE</h1>
+                  <h1 className=' pl-6 pt-16 font-bold text-white text-left tracking-widest'>LANGUAGE</h1>
                   <div className='border-b-4  reletive r-0 my-2'></div>
 
 
                   <div className='flex flex-row py-2  justify-between items-center'>
                             <Link href='https://www.instagram.com/onlineceoofficial' target='_blank'>
-                              <h1 className='text-white sm:pl-10 w-30'>Native</h1>
+                              <h1 className='text-white px-2 w-28'>Native</h1>
                             </Link>
                       <div className='border-l-2 pr-10'>
-                        <h2 className='text-white text-left pl-4 w-40'>"Turkish"</h2>
-                        <h2 className='text-white text-left pl-4 w-40'>"Persian"</h2>
+                        <h2 className='text-white text-left px-2 w-40 sm:w-32'>"Turkish"</h2>
+                        <h2 className='text-white text-left px-2 w-40 sm:w-32'>"Persian"</h2>
                        </div>
                       </div>
 
 
                       <div className='flex flex-row py-2  justify-between items-center'>
                             <Link href='https://www.instagram.com/onlineceoofficial' target='_blank'>
-                              <h1 className='text-white sm:pl-10 w-30'>Other  </h1>
+                              <h1 className='text-white px-2 w-28'>Other  </h1>
                             </Link>
                       <div className='border-l-2 pr-10'>
-                        <h2 className='text-white text-left pl-4 w-40'>"English - Advance "</h2>
+                        <h2 className='text-white text-left px-2 w-40 sm:w-32'>"English"</h2>
                       
                        </div>
                       </div>
@@ -172,7 +172,7 @@ export default function Home() {
 
 
 
-                      <h1 className=' pr-6 pt-5 font-bold text-white text-left tracking-widest '>
+                      <h1 className=' pl-6 pt-16 font-bold text-white text-left tracking-widest '>
                         CONTACTS</h1>
                   <div className='border-b-4  reletive r-0 my-2'></div>
 
