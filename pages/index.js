@@ -68,7 +68,7 @@ export default function Home() {
                         
                             <Link href='https://www.instagram.com/onlineceoofficial' target='_blank'
                               aria-label='Instagram'>
-                              <h1 className='text-white px-6 w-28 '>Coding </h1>
+                              <h1 className='text-white px-6 w-28 '>Coding Technology</h1>
                             </Link>
                           <div className='border-l-2 pr-10'>
                             <h2 className='text-white text-left px-2 w-40 sm:w-32 '>"Java Script"</h2>
@@ -179,25 +179,34 @@ export default function Home() {
 
                   <div className='flex flex-col   '>
 
-                    {/* Phone */}
-                      <div className='flex flex-row py-2 px-6'>
-                        <Link href='tel:+989141472686'>
-                          <FiPhone className=' w-10 text-2xl text-[#fff] '/> 
-                        </Link>  
-                        <Link href='tel:+989141472686'>
-                          <h1 className='text-white'>+98 914 147 2686</h1>
-                        </Link>
-                      </div>
-
                       {/* office */}
                       <div className='flex flex-row  px-6 py-2'>
                         <Link href='tel:+984433384232' >
                           <HiOutlineLibrary className=' w-10 text-2xl text-[#fff] '/> 
                         </Link>  
-                        <Link href='tel:+984433384232'>
-                          <h1 className='text-white'>+9844 3338 4232</h1>
+                        <Link href='tel:+905528258841'>
+                          <h1 className='text-white'>+90 552 825 8841</h1>
                         </Link>
                       </div>
+                    {/* Phone */}
+                      <div className='flex flex-row py-2 px-6'>
+                        <Link href='tel:+989141472686'>
+                          <HiOutlineLibrary className=' w-10 text-2xl text-[#fff] '/> 
+                        </Link>  
+                        <Link href='tel:+989141472686'>
+                          <h1 className='text-white'>+98 914 147 2686</h1>
+                        </Link>
+                      </div>
+                                {/* Phone */}
+                       <div className='flex flex-row py-2 px-6'>
+                        <Link href='tel:+989141472686'>
+                          <HiOutlineLibrary className=' w-10 text-2xl text-[#fff] '/> 
+                        </Link>  
+                        <Link href='tel:+447418354868'>
+                          <h1 className='text-white'>+44 7418 354868</h1>
+                        </Link>
+                      </div>
+
 
                       {/* instagram */}
                       <div className='flex flex-row px-6 py-2'>
@@ -214,7 +223,7 @@ export default function Home() {
                         <Link href='https://t.me/AshkanAzimiii' target='_blank'  aria-label='telgram'>
                           <TbBrandTelegram className=' w-10 text-2xl text-[#fff] '/> 
                         </Link>  
-                        <Link href='https://t.me/+ll4bLWoavUgyZTI0' target='_blank'  aria-label='telgram'>
+                        <Link href='https://t.me/AshkanAzimiii' target='_blank'  aria-label='telgram'>
                           <h1 className='text-white px-2'>ashkanazimiii</h1>
                         </Link>
                       </div>
@@ -229,14 +238,7 @@ export default function Home() {
                       </div>
 
                                  {/* location */}
-                      <div className='flex flex-row px-6  py-2'>
-                        <Link href="https://goo.gl/maps/ADLwGuyzV7iG2S689" target='_blank'  aria-label='location'>
-                          <HiOutlineLocationMarker className=' w-10 text-2xl text-[#fff] '/> 
-                        </Link>  
-                        <Link href="https://goo.gl/maps/ADLwGuyzV7iG2S689" target='_blank'  aria-label='locatiom'>
-                          <h1 className='text-white px-2'>On site country: Iran - Turkey</h1>
-                        </Link>
-                      </div>
+                  
 
                       <div className='flex flex-row px-6  py-2'>
                         <Link href="https://goo.gl/maps/ADLwGuyzV7iG2S689" target='_blank'  aria-label='location'>
