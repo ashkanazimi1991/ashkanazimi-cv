@@ -3,6 +3,8 @@ import Link from 'next/link';
 
 import Image from 'next/image'
 import { FaInstagram, FaGithub } from 'react-icons/fa';
+import {BiWorld } from 'react-icons/bi';
+
 import { HiOutlineLibrary, HiOutlineMail, HiOutlineLocationMarker } from "react-icons/hi";
 import { FiPhone, FiPlayCircle } from "react-icons/fi";
 import { TbBrandTelegram } from "react-icons/tb";
@@ -23,8 +25,8 @@ export default function Home() {
           <img  src="./images/me.jpg"  alt="ashkan azimi"
               className="w-1/4 max-h-80 rounded-[10] object-center  object-contain "/>
             <div className='w-3/4 flex flex-col justify-center'>
-              <h1 className="text-black tracking-widest text-6xl font-bold md:text-3xl sm:text-2xl text-center">
-                Ashkan Azimi  </h1>
+              <h2 className="text-black tracking-widest text-6xl font-bold md:text-3xl sm:text-2xl text-center">
+                Ashkan Azimi  </h2>
               <h2 className='text-[#000] text-3xl py-5 tracking-wider font-semibold text-center 
               sm:text-xl md:text-2xl '>
                 Full-Stack Developer</h2>
@@ -32,9 +34,9 @@ export default function Home() {
 
         </div>
             <div className='bg-gray-600   py-10 flex flex-row sm:flex-col  items-center '>
-                <h1 className='w-1/4 sm:w-screen py-2 tracking-widest text-right sm:text-center 
+                <h2 className='w-1/4 sm:w-screen py-2 tracking-widest text-right sm:text-center 
                 text-2xl font-bold text-black border-b-4 min-w-300 whitespace-nowrap md:text-xl'>
-                  ABOUT ME</h1>
+                  ABOUT ME</h2>
                 <h2 className='w-3/4 sm:w-screen sm:py-10 px-20 sm:px-10  text-
                  text-[#fff] text-justify'>
                   I was born in 1991 & started the OnlineCEO developer company in 2015, we built many
@@ -59,7 +61,7 @@ export default function Home() {
 
                   {/* Skils */}
 
-                  <h1 className=' pl-6 pt-5 font-bold text-white text-left tracking-widest'>SKILLS</h1>
+                  <h2 className=' pl-6 pt-5 font-bold text-white text-left tracking-widest'>SKILLS</h2>
                   <div className='border-b-4  reletive items-end my-2'></div>
 
                       {/* Programming Skill */}
@@ -68,17 +70,17 @@ export default function Home() {
                         
                             <Link href='https://www.instagram.com/onlineceoofficial' target='_blank'
                               aria-label='Instagram'>
-                              <h1 className='text-white px-6 w-28 '>Coding Technology</h1>
+                              <h2 className='text-white px-6 w-28 text-sm '>Development</h2>
                             </Link>
                           <div className='border-l-2 pr-10'>
-                            <h2 className='text-white text-left px-2 w-40 sm:w-32 '>"Java Script"</h2>
-                            <h2 className='text-white text-left px-2 w-40 sm:w-32'>"Type Script"</h2>
-                            <h2 className='text-white text-left px-2 w-40 sm:w-32'>"Python"</h2>
-                            <h2 className='text-white text-left px-2 w-40 sm:w-32'>"C++"</h2>
-                            <h2 className='text-white text-left px-2 w-40 sm:w-32'>"Solidity"</h2>
-                            <h2 className='text-white text-left px-2 w-40 sm:w-32'>"Tailwindcss"</h2>
-                            <h2 className='text-white text-left px-2 w-40 sm:w-32'>"SQL / MySQL"</h2>
-                            <h2 className='text-white text-left px-2 w-40 sm:w-32'>"Html / CSS"</h2>
+                            <h2 className='text-white text-left px-2 w-40 text-sm  sm:w-32 '>"Java Script"</h2>
+                            <h2 className='text-white text-left px-2 w-40 text-sm  sm:w-32'>"Type Script"</h2>
+                            <h2 className='text-white text-left px-2 w-40 text-sm  sm:w-32'>"Python"</h2>
+                            <h2 className='text-white text-left px-2 w-40 sm:w-32 text-sm '>"C++"</h2>
+                            <h2 className='text-white text-left px-2 w-40 sm:w-32 text-sm '>"Solidity"</h2>
+                            <h2 className='text-white text-left px-2 w-40 sm:w-32 text-sm '>"Tailwindcss"</h2>
+                            <h2 className='text-white text-left px-2 w-40 sm:w-32 text-sm '>"SQL / MySQL"</h2>
+                            <h2 className='text-white text-left px-2 w-40 sm:w-32 text-sm '>"Html / CSS"</h2>
                           </div>
                         </div>
 
@@ -88,14 +90,14 @@ export default function Home() {
                        
                             <Link href='https://www.instagram.com/onlineceoofficial' target='_blank'
                               aria-label='Instagram'>
-                              <h1 className='text-white  px-6 w-28 '>FrameWork</h1>
+                              <h2 className='text-white text-sm   px-6 w-28 '>FrameWork</h2>
                             </Link>
                           <div className='border-l-2 pr-10'>
-                            <h2 className='text-white text-left px-2 w-40 sm:w-32'>"React"</h2>
-                            <h2 className='text-white text-left px-2 w-40 sm:w-32'>"React Native"</h2>
-                            <h2 className='text-white text-left px-2 w-40 sm:w-32'>"Expo"</h2>
-                            <h2 className='text-white text-left px-2 w-40 sm:w-32'>"Nextjs"</h2>
-                            <h2 className='text-white text-left px-2 w-40 sm:w-32'>"Django"</h2>
+                            <h2 className='text-white text-left px-2 w-40 text-sm  sm:w-32'>"React"</h2>
+                            <h2 className='text-white text-left px-2 w-40 text-sm  sm:w-32'>"React Native"</h2>
+                            <h2 className='text-white text-left px-2 w-40 text-sm  sm:w-32'>"Expo"</h2>
+                            <h2 className='text-white text-left px-2 w-40 text-sm  sm:w-32'>"Nextjs"</h2>
+                            <h2 className='text-white text-left px-2 w-40 text-sm  sm:w-32'>"Django"</h2>
                           </div>
                         </div>
 
@@ -110,11 +112,11 @@ export default function Home() {
                               <FaRegDotCircle className=' w-10 text-sm  text-[#fff] '/> 
                             </Link>   */}
                             <Link href='https://www.instagram.com/onlineceoofficial' target='_blank'>
-                              <h1 className='text-white px-6 w-28'>Automation</h1>
+                              <h2 className='text-white px-6 text-sm  w-28'>Automation</h2>
                             </Link>
                         <div className='border-l-2 pr-10 '>
-                          <h2 className='text-white text-left px-2 w-40 sm:w-32'>"Raspberry Pi"</h2>
-                          <h2 className='text-white text-left px-2 w-40 sm:w-32'>"Arduino"</h2>
+                          <h2 className='text-white text-left px-2 w-40 text-sm  sm:w-32'>"Raspberry Pi"</h2>
+                          <h2 className='text-white text-left px-2 w-40 text-sm  sm:w-32'>"Arduino"</h2>
                           
                         </div>
                         </div>
@@ -131,39 +133,39 @@ export default function Home() {
                               <FaRegDotCircle className=' w-10 text-sm  text-[#fff] '/> 
                             </Link>   */}
                             <Link href='https://www.instagram.com/onlineceoofficial' target='_blank'>
-                              <h1 className='text-white px-6 w-28 whitespace-nowrap'>Other Skill</h1>
+                              <h2 className='text-white px-6 w-28 text-sm  whitespace-nowrap'>Other Skill</h2>
                             </Link>
                       <div className='border-l-2 pr-10'>
-                        <h2 className='text-white text-left px-2 w-40 sm:w-32'>"Project Management"</h2>
-                        <h2 className='text-white text-left px-2 w-40 sm:w-32'>"Ui,Ux "</h2>
-                        <h2 className='text-white text-left px-2 w-40 sm:w-32'>"Figma"</h2>
-                        <h2 className='text-white text-left px-2 w-40 sm:w-32'>"Git"</h2>
+                        <h2 className='text-white text-left px-2 text-sm  w-40 sm:w-32'>"Project Management"</h2>
+                        <h2 className='text-white text-left px-2 text-sm  w-40 sm:w-32'>"Ui,Ux "</h2>
+                        <h2 className='text-white text-left px-2 text-sm  w-40 sm:w-32'>"Figma"</h2>
+                        <h2 className='text-white text-left px-2 text-sm  w-40 sm:w-32'>"Git"</h2>
                        </div>
                       </div>
 
 {/* ........................................................................................... */}
                   {/* language */}
-                  <h1 className=' pl-6 pt-16 font-bold text-white text-left tracking-widest'>LANGUAGE</h1>
+                  <h2 className=' pl-6 pt-16 font-bold text-white text-left tracking-widest'>LANGUAGE</h2>
                   <div className='border-b-4  reletive r-0 my-2'></div>
 
 
                   <div className='flex flex-row py-2  justify-between items-center'>
                             <Link href='https://www.instagram.com/onlineceoofficial' target='_blank'>
-                              <h1 className='text-white px-6 w-28'>Native</h1>
+                              <h2 className='text-white px-6 text-sm  w-28'>Native</h2>
                             </Link>
                       <div className='border-l-2 pr-10'>
-                        <h2 className='text-white text-left px-2 w-40 sm:w-32'>"Turkish"</h2>
-                        <h2 className='text-white text-left px-2 w-40 sm:w-32'>"Persian"</h2>
+                        <h2 className='text-white text-left text-sm  px-2 w-40 sm:w-32'>"Turkish"</h2>
+                        <h2 className='text-white text-left text-sm  px-2 w-40 sm:w-32'>"Persian"</h2>
                        </div>
                       </div>
 
 
                       <div className='flex flex-row py-2  justify-between items-center'>
                             <Link href='https://www.instagram.com/onlineceoofficial' target='_blank'>
-                              <h1 className='text-white px-6 w-28'>Other  </h1>
+                              <h2 className='text-white px-6 text-sm  w-28'>Other  </h2>
                             </Link>
                       <div className='border-l-2 pr-10'>
-                        <h2 className='text-white text-left px-2 w-40 sm:w-32'>"English"</h2>
+                        <h2 className='text-white text-left px-2 text-sm  w-40 sm:w-32'>"English"</h2>
                       
                        </div>
                       </div>
@@ -173,8 +175,8 @@ export default function Home() {
 
 
 
-                      <h1 className=' pl-6 pt-16 font-bold text-white text-left tracking-widest '>
-                        CONTACTS</h1>
+                      <h2 className=' pl-6 pt-16 font-bold text-white text-left tracking-widest '>
+                        CONTACTS</h2>
                   <div className='border-b-4  reletive r-0 my-2'></div>
 
                   <div className='flex flex-col   '>
@@ -185,7 +187,7 @@ export default function Home() {
                           <HiOutlineLibrary className=' w-10 text-2xl text-[#fff] '/> 
                         </Link>  
                         <Link href='tel:+905528258841'>
-                          <h1 className='text-white'>+90 552 825 8841</h1>
+                          <h2 className='text-white'>+90 552 825 8841</h2>
                         </Link>
                       </div>
                     {/* Phone */}
@@ -194,7 +196,7 @@ export default function Home() {
                           <HiOutlineLibrary className=' w-10 text-2xl text-[#fff] '/> 
                         </Link>  
                         <Link href='tel:+989141472686'>
-                          <h1 className='text-white'>+98 914 147 2686</h1>
+                          <h2 className='text-white'>+98 914 147 2686</h2>
                         </Link>
                       </div>
                                 {/* Phone */}
@@ -203,7 +205,7 @@ export default function Home() {
                           <HiOutlineLibrary className=' w-10 text-2xl text-[#fff] '/> 
                         </Link>  
                         <Link href='tel:+447418354868'>
-                          <h1 className='text-white'>+44 7418 354868</h1>
+                          <h2 className='text-white'>+44 7418 354868</h2>
                         </Link>
                       </div>
 
@@ -214,7 +216,7 @@ export default function Home() {
                           <FaInstagram className=' w-10 text-2xl text-[#fff] '/> 
                         </Link>  
                         <Link href='https://www.instagram.com/ashkanazimi.info' target='_blank'  aria-label='Instagram'>
-                          <h1 className='text-white px-1'>ashkanazimi.info</h1>
+                          <h2 className='text-white px-1'>ashkanazimi.info</h2>
                         </Link>
                       </div>
 
@@ -224,7 +226,7 @@ export default function Home() {
                           <TbBrandTelegram className=' w-10 text-2xl text-[#fff] '/> 
                         </Link>  
                         <Link href='https://t.me/AshkanAzimiii' target='_blank'  aria-label='telgram'>
-                          <h1 className='text-white px-2'>ashkanazimiii</h1>
+                          <h2 className='text-white px-2'>ashkanazimiii</h2>
                         </Link>
                       </div>
                             {/* mail */}
@@ -233,7 +235,7 @@ export default function Home() {
                           <HiOutlineMail className=' w-10 text-2xl text-[#fff] '/> 
                         </Link>  
                         <Link href="mailto:ashkan1991azimi@gmail.com" target='_blank'  aria-label='mail'>
-                          <h1 className='text-white px-2'>mail@ashkanazimi.info</h1>
+                          <h2 className='text-white px-2'>mail@ashkanazimi.info</h2>
                         </Link>
                       </div>
 
@@ -241,11 +243,9 @@ export default function Home() {
                   
 
                       <div className='flex flex-row px-6  py-2'>
-                        <Link href="https://goo.gl/maps/ADLwGuyzV7iG2S689" target='_blank'  aria-label='location'>
-                          <HiOutlineLocationMarker className=' w-10 text-2xl text-[#fff] '/> 
-                        </Link>  
-                        <Link href="https://goo.gl/maps/ADLwGuyzV7iG2S689" target='_blank'  aria-label='locatiom'>
-                          <h1 className='text-white px-2'>Remote: Worldwide</h1>
+                        <BiWorld className=' w-10 text-2xl text-[#fff] '/> 
+                        <Link href="https://onlineceo.org/" target='_blank'  aria-label='website'>
+                          <h2 className='text-white px-2'> Company: onlineceo.org</h2>
                         </Link>
                       </div>
 
@@ -268,7 +268,7 @@ export default function Home() {
 
                   <div className='flex flex-col'>
                       <div >
-                        <h1 className='font-bold tracking-widest text-lg'>WORK EXPERIENCE</h1>
+                        <h2 className='font-bold tracking-widest text-lg'>WORK EXPERIENCE</h2>
                           <div className='border-l-2 ml-2 mt-4 pr-2' >
                             <h2 className='font-bold pl-2'>CEO & Owner [ 2015 - 2023 ] </h2>
                             <p className='ml-10'>ONLINE CEO Company <br></br>Design & develop Software, 
@@ -329,8 +329,8 @@ export default function Home() {
 
                       {/* EDUCATION or project*/}
                       <div>
-                        <h1 className='font-bold border-b-4 pb-2 border-black tracking-widest text-lg
-                         pt-10'>PROJECTS</h1>
+                        <h2 className='font-bold border-b-4 pb-2 border-black tracking-widest text-lg
+                         pt-10'>PROJECTS</h2>
                         <div className='border-l-2 ml-2 mt-4 pr-2'>
                             <h2 className='font-bold pl-2'>CEO App</h2>
                             <p className='ml-10'>Web app for the ONLINE CEO developer community Support 3D View, Virtual Reality, 
